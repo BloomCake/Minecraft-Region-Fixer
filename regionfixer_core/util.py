@@ -96,9 +96,7 @@ def entitle(text, level = 0):
     t = ''
     if level == 0:
         t += "\n"
-        t += "{0:#^60}\n".format('')
         t += "{0:#^60}\n".format(' ' + text + ' ')
-        t += "{0:#^60}\n".format('')
     return t
 
 
